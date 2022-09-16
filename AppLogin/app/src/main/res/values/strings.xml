@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="tv_user">User</string>
+    <string name="tv_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_cadastro">Cadastrar</string>
+    <string name="menu_refresh">refresh</string>
+    <string name="menu_new_buzz">new buzz</string>
+    <string name="menu_accounts">Cadastrar</string>
+    <string name="menu_preferences">Consulta</string>
+    <string name="menu_about">Sair</string>
+    <string name="hint_matricula">Matrícula</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_email">E-mail</string>
+</resources>

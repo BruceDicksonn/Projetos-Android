@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppButton</string>
+    <string name="button">clickme</string>
+    <string name="button2">imprimir mensagem</string>
+</resources>
