@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">AppRecyclerView</string>
-    <string name="transition_key">qualquer_coisa_aqui</string>
-    <string name="title_activity_exemplo_recycler_view">RecyclerView</string>
-    <string name="linear_layout">Linear</string>
-    <string name="grid_layout">Grid</string>
-</resources>
