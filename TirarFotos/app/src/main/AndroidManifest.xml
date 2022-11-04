@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.tirarfotos">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-feature android:name="android.hardware.camera" android:required="true"/>
@@ -10,6 +11,8 @@
     <uses-feature android:name="android.hardware.camera.front" android:required="true"/>
     <uses-feature android:name="android.hardware.camera.any" android:required="true"/>
 
+=======
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -20,6 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TirarFotos"
         tools:targetApi="31">
+<<<<<<< HEAD
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -32,6 +36,8 @@
             </meta-data>
         </provider>
 
+=======
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
         <activity
             android:name=".MainActivity"
             android:exported="true">
