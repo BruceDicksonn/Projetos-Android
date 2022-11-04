@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/purple_500"
+        android:src="@drawable/ic_image"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+        <!--    android:scaleType="centerCrop"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+<<<<<<< HEAD
+        android:layout_height="wrap_content"
+=======
+        android:layout_height="331dp"
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_dark">
+
+            <TextView
+                android:id="@+id/textOfImage"
+                android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="match_parent"
+                android:hint="Texto extraído da imagem"
+                android:padding="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+=======
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:hint="Texto extraído da imagem"/>
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
