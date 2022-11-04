@@ -1,5 +1,6 @@
 package com.example.tirarfotos;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,10 +37,19 @@ public class MainActivity extends AppCompatActivity {
     final int IMAGE_REQUEST_CAPTURE = 1;
 
 
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         initComponents();
     }
 
@@ -190,5 +200,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void initComponents(){
         this.imageView = findViewById(R.id.foto);
+=======
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
     }
 }

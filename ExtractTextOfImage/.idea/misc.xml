@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/drawable/ic_image.xml" value="0.1435" />
+<<<<<<< HEAD
         <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/layout-land/activity_main.xml" value="0.1865979381443299" />
         <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1434799841458581" />
         <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/layout/activity_main.xml" value="0.1675929884566054" />
+=======
+        <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+>>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
         <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/menu/menu.xml" value="0.203125" />
         <entry key="..\:/Users/boliveira/AndroidStudioProjects/ExtractTextOfImage/app/src/main/res/xml/file_paths.xml" value="0.20416666666666666" />
       </map>
