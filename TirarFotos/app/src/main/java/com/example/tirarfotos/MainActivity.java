@@ -1,15 +1,5 @@
 package com.example.tirarfotos;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2a392225e2fb4e682e5b061830e07c99da394dfd
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.FileProvider;
-import androidx.exifinterface.media.ExifInterface;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -21,10 +11,11 @@ import android.provider.MediaStore;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
-import android.widget.Toast;
-
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.GlideBuilder;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.FileProvider;
+import androidx.exifinterface.media.ExifInterface;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,35 +24,18 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
-
     File arquivoFoto;
     Bitmap bitmapImagem;
     ImageView imageView;
     final int IMAGE_REQUEST_CAPTURE = 1;
 
-
-<<<<<<< HEAD
-=======
-=======
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
-
->>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
->>>>>>> 2a392225e2fb4e682e5b061830e07c99da394dfd
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2a392225e2fb4e682e5b061830e07c99da394dfd
+
         initComponents();
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -209,10 +183,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void initComponents(){
         this.imageView = findViewById(R.id.foto);
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a33e1fe17682a8b782c907c27d79d4d3b576c6d6
->>>>>>> 2a392225e2fb4e682e5b061830e07c99da394dfd
     }
+
 }

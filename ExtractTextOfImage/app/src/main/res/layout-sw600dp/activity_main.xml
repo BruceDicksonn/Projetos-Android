@@ -6,40 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--    android:scaleType="centerCrop"-->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="419dp"
         android:background="@color/purple_500"
-        android:src="@drawable/ic_image"
+        android:contentDescription="TODO"
         android:scaleType="centerInside"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_image"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
-        <!--    android:scaleType="centerCrop"-->
-
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/imageView"
-        android:orientation="vertical">
+        android:layout_height="419dp"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/holo_green_dark">
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textOfImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="Texto extraído da imagem"
-                android:textSize="28sp"
                 android:padding="30dp"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white" />
+                android:textColorHint="@color/white"
+                android:textSize="28sp" />
 
 
         </androidx.core.widget.NestedScrollView>
