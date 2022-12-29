@@ -10,11 +10,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Toast;
 
 import com.example.myrecyclerviewappstore.R;
 import com.example.myrecyclerviewappstore.adapter.AdapterApp;
 import com.example.myrecyclerviewappstore.adapter.AdapterJogo;
 import com.example.myrecyclerviewappstore.controller.ControllerProduto;
+import com.example.myrecyclerviewappstore.databinding.ActivityMainBinding;
+import com.example.myrecyclerviewappstore.listener.RecyclerItemClickListener;
 import com.example.myrecyclerviewappstore.model.App;
 import com.example.myrecyclerviewappstore.model.Jogo;
 import com.example.myrecyclerviewappstore.model.Produto;
@@ -49,6 +53,26 @@ public class MainActivity extends AppCompatActivity {
         recyclerApps.setBackgroundColor(Color.parseColor("#CDCDCD"));
         recyclerJogos.setBackgroundColor(Color.parseColor("#CDCDCD"));
 
+        recyclerApps.addOnItemTouchListener(new RecyclerItemClickListener(
+                this,
+                recyclerApps,
+                new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override
+                    public void OnItemClick(View view, int position) {
+                        alert("Item: "+ apps.get(position).getNome() + " foi levemente clicado.");
+                    }
+
+                    @Override
+                    public void OnLongItemClick(View view, int position) {
+                        alert("Item: "+ apps.get(position).getNome() + " foi clicado.");
+                    }
+                }
+        ));
+
+    }
+
+    public void alert(String msg) {
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
     }
 
     public void initComponents(){

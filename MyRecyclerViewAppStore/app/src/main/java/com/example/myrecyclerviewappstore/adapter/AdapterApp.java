@@ -74,7 +74,7 @@ public class AdapterApp extends RecyclerView.Adapter<AdapterApp.AppViewHolder>{
             nota = itemView.findViewById(R.id.notaApp);
             viewGroup = viewGroup;
 
-            itemView.setOnClickListener(this);
+            //itemView.setOnClickListener(this);
 
         }
 
@@ -85,6 +85,7 @@ public class AdapterApp extends RecyclerView.Adapter<AdapterApp.AppViewHolder>{
 
             AlertDialog.Builder builder = new AlertDialog.Builder(context)
                     .setView(editTextDialog)
+                    .setCancelable(false)
                     .setPositiveButton("Abrir", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
