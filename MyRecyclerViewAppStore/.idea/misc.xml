@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/boliveira/AndroidStudioProjects/MyRecyclerViewAppStore/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/boliveira/AndroidStudioProjects/MyRecyclerViewAppStore/app/src/main/res/layout/adapter_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/boliveira/AndroidStudioProjects/MyRecyclerViewAppStore/app/src/main/res/layout/adapter_jogo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/boliveira/AndroidStudioProjects/MyRecyclerViewAppStore/app/src/main/res/layout/edit_text_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/boliveira/MyRecyclerViewAppStore/app/src/main/res/drawable/bordas.xml" value="0.1025" />
         <entry key="..\:/Users/boliveira/MyRecyclerViewAppStore/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/boliveira/MyRecyclerViewAppStore/app/src/main/res/layout/adapter_app.xml" value="0.203125" />

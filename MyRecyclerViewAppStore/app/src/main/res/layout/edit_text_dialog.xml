@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avalie-nos"
+        android:textAppearance="?android:textAppearanceLarge"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp"
+    />
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:maxLength="200"
+        android:padding="10dp"
+        android:hint="Deixe sua mensagem aqui"
+        android:background="#CCCCCC"
+        android:inputType="textMultiLine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    </EditText>
+
+</android.support.constraint.ConstraintLayout>

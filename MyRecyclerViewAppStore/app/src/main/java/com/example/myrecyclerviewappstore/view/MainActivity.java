@@ -3,6 +3,7 @@ package com.example.myrecyclerviewappstore.view;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerJogos.setAdapter(adapterJogo);
         recyclerApps.setAdapter(adapterApp);
+
+        recyclerApps.setBackgroundColor(Color.parseColor("#CDCDCD"));
+        recyclerJogos.setBackgroundColor(Color.parseColor("#CDCDCD"));
 
     }
 

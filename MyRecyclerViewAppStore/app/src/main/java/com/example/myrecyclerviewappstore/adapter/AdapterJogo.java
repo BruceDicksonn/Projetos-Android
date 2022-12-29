@@ -1,5 +1,6 @@
 package com.example.myrecyclerviewappstore.adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -32,6 +33,7 @@ public class AdapterJogo extends RecyclerView.Adapter<AdapterJogo.JogoViewHolder
         return new JogoViewHolder(view);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull JogoViewHolder holder, int position) {
 
@@ -39,7 +41,7 @@ public class AdapterJogo extends RecyclerView.Adapter<AdapterJogo.JogoViewHolder
 
         holder.icone.setImageBitmap(jogo.getIcone());
         holder.nome.setText(jogo.getNome());
-        holder.nota.setText(String.valueOf(jogo.getAvaliacao()));
+        holder.nota.setText(String.valueOf(jogo.getAvaliacao()) + " ★");
 
     }
 
